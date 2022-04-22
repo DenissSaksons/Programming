@@ -1,4 +1,6 @@
 "use strict";
 
-let user = prompt(`Hi, what is your name?`);
-document.write(`Hello dear ${user}`);
+let a = 10,
+    b = 5;
+
+console.log(a > 3 && b > 3);
