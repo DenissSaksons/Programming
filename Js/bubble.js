@@ -1,9 +1,9 @@
-"use sctrict";
+"use strict";
 let buble = [];
 let userCount = +prompt(`how many numbers you want in array?`,"");
 
 do {
-    buble.push(+prompt(`enter a number. enter 0 to stop `,"0"));
+buble.push(+prompt(`enter a number. enter 0 to stop `,"0"));
     } 
     while (buble.length < userCount);
 let
